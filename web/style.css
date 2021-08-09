@@ -1,0 +1,144 @@
+*{
+	margin: 0; padding: 0
+}
+.header{
+	width: 1140px;
+	margin: 0 auto;
+	background: #DCDCDC;
+	margin-bottom:   15px
+}
+
+.mini-cart{
+	margin-top: 7px
+}
+.mini-cart a{
+	color: #333
+}
+.btn{
+	border-color: #adadad;
+	color: #333
+}
+
+h1{
+	text-align: center;
+	font-style: italic
+}
+
+.my-menu .nav li a{
+	color: #777;
+	
+}
+
+.carousel-caption{
+	font-style: italic;
+}
+.banel{
+	overflow: hidden
+}
+.banel img{
+	width: 100%;
+	transform: scale(1);
+	transition: 0.2s all
+}
+.banel:hover img{
+	transform: scale(1.1)
+}
+.item1{
+	margin-left: 10px
+}
+
+.dong1{
+	font-size: 20px;
+	margin-bottom: 45px
+}
+.dong1 ul li i{
+	margin-right: 12px;
+	color: #ff3535;
+
+}
+
+.form-to{
+	display: grid;
+	grid-template-columns:  3fr 1fr
+}
+.form-be{
+	display: grid;
+	grid-template-columns:  1fr 2.5fr
+}
+
+
+.form-group1 input{
+	width: 230px;
+	border-bottom: 2px solid #333;	
+	
+}
+.form-group2 input{
+	width: 230px;
+	border-bottom: 2px solid #333;	
+	
+}
+.form-group2{
+	margin-bottom: 20px
+}
+.form-group3 textarea{
+	width: 474px;
+	border-bottom: 2px solid #333;
+	height: 100px;
+	margin-bottom: 15px
+}
+.form-group4{
+	margin-bottom: 40px
+}
+.form-group4 button{
+	width: 140px;
+	background: #ff3535;
+	color: #fff;
+	height: 30px;
+	border: none;
+	cursor: pointer
+}
+.form-group4:hover button{
+	background: #333
+}
+.den1{
+	margin-bottom: 20px
+}
+
+.form-right{
+	margin-top: -17px
+}
+
+.form-right .dia-chi p{
+	font-size: 12px;
+	color: #adadad
+}
+.map{
+	margin-bottom: 15px;
+}
+.chan-cuoi{
+	background: #1d1b1b;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 200px
+}
+.chan-trai{
+	margin-top: 10px;
+	
+}
+.chan-trai p{
+	font-size: 12px;
+	color: #fff; 
+}
+
+.footer{
+	background:#333;
+	height: 23px 
+	
+}
+.footer p{
+	color: #fff;
+	text-align: center;
+}
+/* class="cloudzoom" alt ="Cloud Zoom small image" id ="zoom1" data-cloudzoom='useZoom:"#zoom1",
+										image:"Cloud-zoom/images/small/ab.jpg",
+										zoomImage:"Cloud-zoom//images/large/ab.jpg"' */
